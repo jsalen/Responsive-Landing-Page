@@ -211,7 +211,7 @@ main {
 }
 
 .main-exchange-container .main-exchange-container__table-container .main-exchange-table__footer {
-    margin: 16px 0;
+    margin: 16px auto 0;
     grid-column: 1 / -1;
     width: 90%;
     height: 31px;
