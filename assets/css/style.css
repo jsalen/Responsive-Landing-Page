@@ -144,6 +144,8 @@ main {
 }
 
 .main-exchange-container__table-container {
+    min-width: 235px;
+    max-width: 500px;
     display: grid;
     grid-template-columns: 100px 100px;
     justify-content: center;
@@ -226,4 +228,3 @@ main {
     font-weight: 700;
     text-align: center; 
 }
-
