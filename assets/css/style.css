@@ -92,3 +92,135 @@ header img {
     margin-left: 10px;
     background-image: url('../icons/down-arrow.svg');
 }
+
+main {
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    background-color: var(--off-white);
+}
+
+.main-exchange-container {
+    width: 100%;
+    height: auto;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.main-exchange-container__background {
+    background-image: url('../img/Bitcoin.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 195px;
+    height: 195px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.main-exchange-container__title {
+    width: 90%;
+    min-width: 288px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.main-exchange-container__title h2 {
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 2.6rem;
+    text-align: center;
+    color: var(--warm-black);
+}
+
+.main-exchange-container__title p {
+    margin: 24px 0;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    text-align: center;
+    color: #757575;
+}
+
+.main-exchange-container__table-container {
+    display: grid;
+    grid-template-columns: 100px 100px;
+    justify-content: center;
+    gap: 10px;
+}
+
+.main-exchange-container__table-container h3 {
+    width: 100%;
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 23px;
+    color: var(--bitcoin-orange);
+    grid-column: 1 / -1;
+    text-align: left;
+}
+
+.main-exchange-container__table-container div:nth-child(even) {
+    font-size: 1.6rem;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    color: #b5b0ac;
+    line-height: 1.9rem;
+    text-align: left;
+}
+
+.main-exchange-container__table-container div:nth-child(odd) {
+    font-size: 1.4rem;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    line-height: 1.6rem;
+    text-align: center;
+    color: #757575;
+    text-align: center;
+}
+
+.main-exchange-container__table-container .trending-down {
+    display: inline-block;
+    background-image: url('../icons/trending-down.svg');
+    background-position: center;
+	background-repeat: no-repeat;
+    background-size: cover;
+    width: 12px;
+    height: 8px;
+    margin-left: 10px;
+}
+
+.main-exchange-container__table-container .trending-up {
+    display: inline-block;
+    background-image: url('../icons/trending-up.svg');
+    background-position: center;
+	background-repeat: no-repeat;
+    background-size: cover;
+    width: 12px;
+    height: 8px;
+    margin-left: 10px;
+}
+
+.main-exchange-container .main-exchange-container__table-container .main-exchange-table__footer {
+    margin: 16px 0;
+    grid-column: 1 / -1;
+    width: 90%;
+    height: 31px;
+    padding: 8px;
+    text-align: center;
+    justify-self: center;
+    background-color: var(--soft-orange);
+    border-radius: 8px;
+}
+
+.main-exchange-table__footer p {
+	font-size: 1.2rem;
+	font-weight: 400;
+    line-height: 1.45em;
+    color: var(--warm-black);
+}
+
+.main-exchange-table__footer span {
+    font-weight: 700;
+    text-align: center; 
+}
