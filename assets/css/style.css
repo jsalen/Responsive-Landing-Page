@@ -144,15 +144,20 @@ main {
 }
 
 .main-exchange-container__table-container {
+    width: 200px;
+    margin: 0 auto;
     min-width: 235px;
     max-width: 500px;
     display: grid;
+    gap: 10px;
     grid-template-columns: 100px 100px;
     justify-content: center;
-    gap: 10px;
+    background-color: var(--just-white);
+    border-radius: 15px;
 }
 
 .main-exchange-container__table-container h3 {
+    margin-top: 10px;
     width: 100%;
     font-size: 1.8rem;
     font-weight: 700;
@@ -227,4 +232,15 @@ main {
 .main-exchange-table__footer span {
     font-weight: 700;
     text-align: center; 
+}
+
+.comision-table {
+    margin-top: 15px;
+}
+.comision-table h3{
+    color: var(--secondary-blue);
+}
+
+.main-exchange-container .comision-table .main-exchange-table__footer {
+    background-color: #E7F5FF;
 }
