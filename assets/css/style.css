@@ -161,6 +161,7 @@ main {
 }
 
 .main-exchange-container__table-container div:nth-child(even) {
+    margin-top: 10px;
     font-size: 1.6rem;
     font-weight: 500;
     font-family: "Inter", sans-serif;
@@ -170,6 +171,7 @@ main {
 }
 
 .main-exchange-container__table-container div:nth-child(odd) {
+    margin-top: 10px;
     font-size: 1.4rem;
     font-weight: 400;
     font-family: "Inter", sans-serif;
@@ -224,3 +226,4 @@ main {
     font-weight: 700;
     text-align: center; 
 }
+
