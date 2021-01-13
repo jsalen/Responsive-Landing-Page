@@ -420,7 +420,7 @@ main {
     box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
 }
 
-.plans-detail__card--featured {
+.plans-detail__card--name {
     margin: 0 auto;
     position: absolute;
     width: 101px;
@@ -428,7 +428,6 @@ main {
     left: calc(50% - 50px);
     top: calc(0% - 15px);
     padding: 8px;
-    background-color: var(--bitcoin-orange);
     border-radius: 8px;
     font-family: "Inter", sans-serif;
     font-size: 1.2rem;
@@ -438,8 +437,20 @@ main {
     color: var(--just-white);
 }
 
+.featured {
+    background-color: var(--bitcoin-orange);
+}
+
+.basic {
+    background-color: var(--secondary-blue);
+}
+
+.ultra {
+    background-color: var(--warm-black);
+}
+
 .plans-detail__card--details .card__details--payment-type {
-    padding: 31px 58px 0 59px;
+    padding-top: 31px;
     font-size: 1.4rem;
     font-weight: 500;
     line-height: 1.8rem;
