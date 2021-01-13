@@ -19,6 +19,7 @@
 html {
     font-size: 62.5%;
     font-family: "DM Sans", sans-serif;
+    scroll-behavior: smooth;
 }
 
 header {
@@ -99,6 +100,8 @@ main {
     height: auto;
     background-color: var(--off-white);
 }
+
+/* Primera Sección: Cambios */
 
 .main-exchange-container {
     width: 100%;
@@ -242,4 +245,122 @@ main {
 
 .main-exchange-container .comision-table .main-exchange-table__footer {
     background-color: #E7F5FF;
+}
+
+/* Segunda sección: Header */
+
+.product-detail {
+    position: relative;
+    padding: 20px 15px;
+    width: 100%;
+    min-width: 320px;
+    background-color: var(--warm-black);
+}
+
+.product-detail__icon {
+    position: absolute;
+    background-image: url('../icons/batata.svg');
+    width: 40px;
+    height: 25px;
+    top: calc(0% - 12.5px);
+	left: calc(50% - 20px);
+}
+
+.product-detail__header {
+    margin: 0 auto 30px;
+    padding-top: 50px;
+}
+
+.product-detail__header h2 {
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 2.6rem;
+    text-align: center;
+    color: var(--just-white);
+}
+
+.product-detail__header p {
+    margin-top: 24px;
+    
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    text-align: center;
+    color: #b4b4b4;
+}
+
+/* Segunda sección: Tarjetas */
+
+.product-detail .product-detail__card-container {
+    margin: 16px auto;
+    position: relative;
+    min-width: 288px;
+    max-width: 400px;
+    height: 152px;
+    background-color: var(--black);
+    border-radius: 4px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.16);
+}
+
+.product-detail__card-icon  {
+    position: absolute;
+    top: 16px;
+    left: 18px;
+    width: 24px;
+    height: 24px;
+}
+
+.clock {
+    background-image: url('../icons/clock.svg');
+}
+
+.eye {
+    background-image: url('../icons/eye.svg');
+}
+
+.dollar {
+    background-image: url('../icons/dollar-sign.svg');
+}
+
+.check {
+    background-image: url('../icons/check-circle.svg');
+}
+
+.product-detail__title {
+    position: absolute;
+    top: 48px;
+    left: 16px;
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 1.8rem;
+    color: var(--just-white);
+}
+
+.product-detail__description {
+    position: absolute;
+    padding-right: 20px;
+    top: 76px;
+    left: 16px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #808080;
+}
+
+.background-img-container {
+    min-width: 320px;
+    height: 60vh;
+    background-image: url('../img/bitcoinbaby2x.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.background-img-container h2 {
+    padding-top: 64px;
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 2.6rem;
+    text-align: center;
+    color: var(--just-white);
 }
