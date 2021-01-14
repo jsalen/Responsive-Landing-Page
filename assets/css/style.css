@@ -195,6 +195,23 @@ main {
     text-align: center;
 }
 
+@media screen and (min-width: 425px) {
+    .main-exchange-container .exchange-container {
+        overflow-x: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .main-exchange-container .exchange-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+}
+
 .main-exchange-container__table-container .trending-down {
     display: inline-block;
     background-image: url('../icons/trending-down.svg');
@@ -420,6 +437,20 @@ main {
     scroll-snap-align: center; 
 }
 
+@media screen and (min-width: 768px) {
+    .plans-detail__slider {
+        overflow-x: hidden;
+    }
+
+    .plans-detail .plans-detail__slider::before, .plans-detail .plans-detail__slider::after {
+        display: none;
+    }
+    .plans-detail__slider .plans-detail__card {
+        margin-left: 6px;
+        margin-right: 6px;
+    }
+}
+
 .plans-detail__slider::-webkit-scrollbar {
     background-color: var(--soft-orange);
     height: 3px;
@@ -578,3 +609,14 @@ main {
     color: var(--just-white);
 }
 
+@media (min-width: 768px) {
+    .footer .footer__left .footer__external-links {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .footer .footer__left .footer__external-links li {
+        margin-left: 12px;
+    }
+}
